@@ -288,4 +288,20 @@ public class DotsIndicator extends LinearLayout {
     setUpViewPager();
     refreshDots();
   }
+
+  public void setDotsSize(int dotsSize) {
+    this.dotsSize = dotsSize;
+  }
+
+  public void setDotsSpacing(int dotsSpacing) {
+    this.dotsSpacing = dotsSpacing;
+  }
+
+  public void setDotsWidthFactor(int dotsWidthFactor) {
+    this.dotsWidthFactor = dotsWidthFactor;
+  }
+
+  public void setDotsCornerRadius(int dotsCornerRadius) {
+    this.dotsCornerRadius = dotsCornerRadius;
+  }
 }

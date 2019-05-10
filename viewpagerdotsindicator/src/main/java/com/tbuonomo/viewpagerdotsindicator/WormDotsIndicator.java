@@ -314,4 +314,20 @@ public class WormDotsIndicator extends FrameLayout {
     setUpViewPager();
     refreshDots();
   }
+
+  public void setDotsSize(int dotsSize) {
+    this.dotsSize = dotsSize;
+  }
+
+  public void setDotsSpacing(int dotsSpacing) {
+    this.dotsSpacing = dotsSpacing;
+  }
+
+  public void setDotsStrokeWidth(int dotsStrokeWidth) {
+    this.dotsStrokeWidth = dotsStrokeWidth;
+  }
+
+  public void setDotsCornerRadius(int dotsCornerRadius) {
+    this.dotsCornerRadius = dotsCornerRadius;
+  }
 }

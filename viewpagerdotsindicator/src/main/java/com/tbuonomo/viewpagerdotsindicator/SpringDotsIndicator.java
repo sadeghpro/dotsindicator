@@ -282,4 +282,20 @@ public class SpringDotsIndicator extends FrameLayout {
     setUpViewPager();
     refreshDots();
   }
+
+  public void setDotsStrokeSize(int dotsStrokeSize) {
+    this.dotsStrokeSize = dotsStrokeSize;
+  }
+
+  public void setDotsSpacing(int dotsSpacing) {
+    this.dotsSpacing = dotsSpacing;
+  }
+
+  public void setDotsStrokeWidth(int dotsStrokeWidth) {
+    this.dotsStrokeWidth = dotsStrokeWidth;
+  }
+
+  public void setDotsCornerRadius(int dotsCornerRadius) {
+    this.dotsCornerRadius = dotsCornerRadius;
+  }
 }
